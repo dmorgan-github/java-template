@@ -5,9 +5,9 @@ docs
 .idea/**
 *.log
 build
-!oversite-bots-api/public/components/angular-growl/build
 publish
 .vagrant
 upload
 .sublime*
 .orig
+target
