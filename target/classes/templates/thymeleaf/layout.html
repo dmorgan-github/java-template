@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+<head>
+    <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">Skeleton</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+<div th:replace="thymeleaf/common/header :: header"></div>
+
+<div class="container-fluid" >
+    <div layout:fragment="content">
+        <div class="starter-template">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">
+                Use this document as a way to quickly start any new project.
+                <br/> All you get is this text and a mostly barebones HTML document.
+            </p>
+        </div>
+    </div>
+</div><!-- /.container -->
+</body>
+</html>
